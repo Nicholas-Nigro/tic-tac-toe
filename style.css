@@ -1,0 +1,23 @@
+body{
+    background-color: gray;
+    font-size: larger;
+    text-align: left;
+    
+}
+.board{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    justify-content: right;
+    margin: 50px;
+    font-size: larger;
+    cursor: pointer;
+    position: absolute;top: 0%;right: 0%;
+}
+.vert {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+  .hori {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
